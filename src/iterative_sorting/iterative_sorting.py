@@ -8,7 +8,7 @@ def selection_sort( arr ):
         # TO-DO: find next smallest element
         # (hint, can do in 3 loc) 
         
-        for j in range(cur_index   , len(arr)):
+        for j in range(cur_index , len(arr)):
             
             if arr[smallest_index] > arr[j]:
                 newsmall = arr[j]
